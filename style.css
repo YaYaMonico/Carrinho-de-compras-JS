@@ -1,0 +1,65 @@
+* {
+    box-sizing: content-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  }
+  
+  body {
+    align-items: center;
+    text-align: center;
+    background-color: honeydew;
+  }
+  
+  #carrinho {
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  
+  .item-carrinho {
+    align-self: center;
+    background-color: brown;
+    margin-right: 2rem;
+    padding: 1rem 1.5rem;
+    width: 600px;
+    height: 400px ;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    margin-left: 31%;
+  }
+  
+  .capa {
+    align-self: center;
+    align-items: center;
+    width: 80px;
+    height: 100px;
+    background-color: lightgray;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 37%;
+  }
+  
+  .capa::after {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  h3{
+    margin-top: 20%;
+  }
+  input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  #subtotal {
+    font-size: 1.2rem;
+  }
